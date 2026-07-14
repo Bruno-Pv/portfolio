@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "Bash(npm -v)",
+      "Bash(rm \"/d/Usuario/Desktop/portifolio/portifolio\" && ls -la \"/d/Usuario/Desktop/portifolio\")",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack --yes)"
+    ],
+    "additionalDirectories": [
+      "D:\\Usuario\\Desktop\\portifolio"
+    ]
+  }
+}
