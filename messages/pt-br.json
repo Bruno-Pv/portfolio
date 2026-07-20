@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Bruno Pavaneli — Full Stack Developer",
+    "description": "Portfólio de Bruno Ribeiro Pavaneli, desenvolvedor Full Stack especializado em React, Next.js, Node.js e PostgreSQL."
+  },
+  "nav": {
+    "about": "Sobre",
+    "skills": "Skills",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "badge": "Aberto a novas oportunidades",
+    "greeting": "Olá, eu sou",
+    "name": "Bruno Ribeiro Pavaneli",
+    "role": "Full Stack Developer",
+    "location": "PR, Brasil",
+    "subtitle": "Desenvolvedor Full Stack com foco em aplicações web modernas, escaláveis e bem estruturadas.",
+    "cta_projects": "Ver projetos",
+    "cta_contact": "Falar comigo"
+  },
+  "about": {
+    "eyebrow": "Sobre mim",
+    "title": "Quem eu sou",
+    "body": "Desenvolvedor Full Stack com foco em aplicações web modernas, escaláveis e bem estruturadas. Trabalho com o ecossistema JavaScript/TypeScript do front ao back — de interfaces animadas e acessíveis até APIs, bancos de dados e rotinas automatizadas. Gosto de escrever código limpo, pensar na experiência do usuário e entregar features com qualidade: testes, boas práticas e atenção aos detalhes. Cursando Engenharia de Software e construindo experiência em projetos reais com stacks atuais como Next.js 15, Fastify e PostgreSQL."
+  },
+  "skills": {
+    "eyebrow": "O que eu uso",
+    "title": "Skills & Ferramentas",
+    "groups": {
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "data": "Banco de dados & ORM",
+      "tools": "Ferramentas & Deploy",
+      "testing": "Testes"
+    }
+  },
+  "experience": {
+    "eyebrow": "Trajetória",
+    "title": "Experiência recente",
+    "role": "Full Stack Developer",
+    "period": "2025 — presente",
+    "backendLabel": "Back-end",
+    "backendStack": "Node.js · Fastify · TypeScript · PostgreSQL · Supabase",
+    "backendItems": [
+      "Sistema de submissão anônima com detecção automática de linguagem de programação",
+      "Geração de identificadores únicos URL-safe para compartilhamento público de conteúdo",
+      "Rotina automática de expiração de dados após 24h com pg_cron e cascade delete"
+    ],
+    "frontendLabel": "Front-end",
+    "frontendStack": "Next.js 15 · React 19 · TypeScript · Tailwind CSS v4",
+    "frontendItems": [
+      "Error Boundary global capturando exceções de render e data-fetching",
+      "Ilustração animada em SVG puro com múltiplas animações simultâneas",
+      "Correlation ID visível ao usuário para suporte técnico sem expor detalhes internos",
+      "Acessibilidade WCAG 2.1 AA — role=alert, foco programático, navegação por teclado",
+      "Cobertura de testes com Vitest + React Testing Library"
+    ]
+  },
+  "projects": {
+    "eyebrow": "Trabalhos",
+    "title": "Projetos",
+    "items": [
+      {
+        "name": "Sistema de Agendamento",
+        "description": "Plataforma para gerenciamento de agendamentos com autenticação de usuários, cadastro de serviços e organização de horários.",
+        "stack": "React · Node.js · Express · PostgreSQL · Prisma"
+      },
+      {
+        "name": "Sistema de Gestão/CRUD",
+        "description": "Aplicação completa para gerenciamento de dados com operações de cadastro, edição, exclusão e consulta em arquitetura Full Stack.",
+        "stack": "React · Node.js · Express · PostgreSQL"
+      },
+      {
+        "name": "Portfólio Pessoal",
+        "description": "Site para apresentar habilidades, tecnologias e projetos com foco em performance, responsividade e experiência do usuário.",
+        "stack": "Next.js · React · Tailwind CSS · TypeScript"
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Formação",
+    "title": "Educação",
+    "degree": "Bacharelado em Engenharia de Software",
+    "period": "2026 — 2030 (previsão)",
+    "status": "Em andamento",
+    "languagesLabel": "Idiomas",
+    "languages": [
+      { "name": "Português", "level": "Nativo" },
+      { "name": "Inglês", "level": "B2 — avançado (quase C1)" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Vamos conversar",
+    "title": "Contato",
+    "subtitle": "Aberto a oportunidades de trabalho, freelas e colaborações. Me chama.",
+    "email": "pavanelli.ribe@gmail.com",
+    "cta": "Enviar email"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro"
+  }
+}

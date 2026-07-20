@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f6f2;
+  --foreground: #16191c;
+  --surface: #ffffff;
+  --border: #e2e0d8;
+  --muted: #64707a;
+  --gold: #c1631b;
+  --gold-foreground: #ffffff;
+  --accent: #1f6f63;
+  --accent-strong: #14504a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-space-grotesk);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #14181b;
+    --foreground: #f2efe7;
+    --surface: #1b2024;
+    --border: #2a3034;
+    --muted: #9aa3ab;
+    --gold: #e08a3e;
+    --gold-foreground: #14181b;
+    --accent: #4fa396;
+    --accent-strong: #7cc9bc;
+  }
+}
+
+:root[data-theme="dark"] {
+  --background: #14181b;
+  --foreground: #f2efe7;
+  --surface: #1b2024;
+  --border: #2a3034;
+  --muted: #9aa3ab;
+  --gold: #e08a3e;
+  --gold-foreground: #14181b;
+  --accent: #4fa396;
+  --accent-strong: #7cc9bc;
+}
+
+:root[data-theme="light"] {
+  --background: #f7f6f2;
+  --foreground: #16191c;
+  --surface: #ffffff;
+  --border: #e2e0d8;
+  --muted: #64707a;
+  --gold: #c1631b;
+  --gold-foreground: #ffffff;
+  --accent: #1f6f63;
+  --accent-strong: #14504a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "ss01" 1;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--gold-foreground);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s ease-out var(--reveal-delay, 0s),
+    transform 0.6s ease-out var(--reveal-delay, 0s);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+}

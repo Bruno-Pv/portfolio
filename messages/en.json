@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Bruno Pavaneli — Full Stack Developer",
+    "description": "Portfolio of Bruno Ribeiro Pavaneli, a Full Stack developer specialized in React, Next.js, Node.js and PostgreSQL."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Open to new opportunities",
+    "greeting": "Hi, I'm",
+    "name": "Bruno Ribeiro Pavaneli",
+    "role": "Full Stack Developer",
+    "location": "PR, Brazil",
+    "subtitle": "Full Stack developer focused on modern, scalable and well-structured web applications.",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Who I am",
+    "body": "Full Stack developer focused on modern, scalable and well-structured web applications. I work across the JavaScript/TypeScript ecosystem, front to back — from animated, accessible interfaces to APIs, databases and automated jobs. I care about writing clean code, thinking through the user experience, and shipping features with quality: tests, good practices and attention to detail. Currently studying Software Engineering and building real-world experience with modern stacks like Next.js 15, Fastify and PostgreSQL."
+  },
+  "skills": {
+    "eyebrow": "What I use",
+    "title": "Skills & Tools",
+    "groups": {
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "data": "Database & ORM",
+      "tools": "Tools & Deploy",
+      "testing": "Testing"
+    }
+  },
+  "experience": {
+    "eyebrow": "Track record",
+    "title": "Recent experience",
+    "role": "Full Stack Developer",
+    "period": "2025 — present",
+    "backendLabel": "Back-end",
+    "backendStack": "Node.js · Fastify · TypeScript · PostgreSQL · Supabase",
+    "backendItems": [
+      "Anonymous submission system with automatic programming language detection",
+      "URL-safe unique identifier generation for public content sharing",
+      "Automatic data expiration routine after 24h using pg_cron and cascade delete"
+    ],
+    "frontendLabel": "Front-end",
+    "frontendStack": "Next.js 15 · React 19 · TypeScript · Tailwind CSS v4",
+    "frontendItems": [
+      "Global Error Boundary catching render and data-fetching exceptions",
+      "Animated illustration in pure SVG with multiple simultaneous animations",
+      "User-facing correlation ID for support without exposing internal details",
+      "WCAG 2.1 AA accessibility — role=alert, programmatic focus, keyboard navigation",
+      "Test coverage with Vitest + React Testing Library"
+    ]
+  },
+  "projects": {
+    "eyebrow": "Work",
+    "title": "Projects",
+    "items": [
+      {
+        "name": "Scheduling System",
+        "description": "Platform for managing appointments with user authentication, service registration and schedule organization.",
+        "stack": "React · Node.js · Express · PostgreSQL · Prisma"
+      },
+      {
+        "name": "Management / CRUD System",
+        "description": "Full-stack data management application with create, edit, delete and query operations.",
+        "stack": "React · Node.js · Express · PostgreSQL"
+      },
+      {
+        "name": "Personal Portfolio",
+        "description": "Site to showcase skills, technologies and projects, focused on performance, responsiveness and user experience.",
+        "stack": "Next.js · React · Tailwind CSS · TypeScript"
+      }
+    ]
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "Education",
+    "degree": "Bachelor's in Software Engineering",
+    "period": "2026 — 2030 (expected)",
+    "status": "In progress",
+    "languagesLabel": "Languages",
+    "languages": [
+      { "name": "Portuguese", "level": "Native" },
+      { "name": "English", "level": "B2 — upper intermediate (near C1)" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "title": "Contact",
+    "subtitle": "Open to job opportunities, freelance work and collaborations. Reach out.",
+    "email": "pavanelli.ribe@gmail.com",
+    "cta": "Send email"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
