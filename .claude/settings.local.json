@@ -5,7 +5,8 @@
       "Skill(artifact-design:*)",
       "Bash(npm -v)",
       "Bash(rm \"/d/Usuario/Desktop/portifolio/portifolio\" && ls -la \"/d/Usuario/Desktop/portifolio\")",
-      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack --yes)"
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack --yes)",
+      "Bash(git commit *)"
     ],
     "additionalDirectories": [
       "D:\\Usuario\\Desktop\\portifolio"
